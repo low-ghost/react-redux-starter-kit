@@ -1,4 +1,4 @@
-import { createReducer } from 'utils';
+import { createReducer } from 'utils'
 
 // ------------------------------------
 // Constants
@@ -50,4 +50,4 @@ const ACTION_HANDLERS = {
 // Reducer
 // ------------------------------------
 const initialState = 0
-export default createReducer(initialState, ACTION_HANDLERS);
+export default createReducer(initialState, ACTION_HANDLERS)
